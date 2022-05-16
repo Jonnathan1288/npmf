@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+a, li{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.logo-head img {
+    width: 170px;
+    height: 60px;
+}
+
+.header {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 2rem;
+}
+.nav-menu ul{
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu li{
+    margin-right: 1.5rem;
+    align-items: center;
+}
+
+.nav-menu a:hover{
+    color: skyblue;
+}
+
+/* Contenedores */
+
+.contenedor-principal{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid red;
+}
+
+.producto-con img{
+    width: 300px;
+}
+
+.contenedorinfo{
+    color: gainsboro;
+    font-family: Tahoma;
+    font-size: 20px;
+    border: 2px solid ;
+    background: gray;
+    padding: 15px;
+    margin: 30px;
+}
+
+.inf{
+    text-align: justify;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px 20px;
+}
+
+#cont{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+
+.fb a:hover{
+    color: blue;
+}
+.wp a:hover{
+    color: green;
+}
+.In a:hover{
+    color: palevioletred;
+}
+

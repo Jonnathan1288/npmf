@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+a,
+li {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.logo-head img {
+    width: 170px;
+    height: 60px;
+}
+
+.header {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 2rem;
+}
+
+.nav-menu ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu li {
+    margin-right: 1.5rem;
+    align-items: center;
+}
+
+.nav-menu a:hover {
+    color: skyblue;
+}
+
+/* Contenedores */
+.page {
+    border: 1px solid black;
+}
+
+body {
+    margin: 0;
+    background-color: azure;
+    font-family: 'Nerko One', cursive;
+}
+
+.contenedor-principal {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+
+.producto-con {
+    margin: 20px;
+    padding: 2px 16px;
+    position: relative;
+
+}
+
+.name {
+    color: blue;
+    font-size: 27px;
+}
+
+.producto-con img {
+    width: 264px;
+    height: 250px;
+}
+
+/* Efectos */
+.producto-con:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Boton */
+
+.btn-agregar {
+    float: right;
+    padding: 12px 20px;
+    transition-duration: 0.4s;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+
+.btn-agregar:hover {
+    background-color: greenyellow;
+    color: white;
+
+}
+
+.page {
+    color: gainsboro;
+    font-family: Tahoma;
+    font-size: 20px;
+    border: 2px solid;
+    background: gray;
+    padding: 15px;
+    margin: 30px;
+
+}
